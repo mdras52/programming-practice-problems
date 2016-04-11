@@ -4,4 +4,4 @@ This repository is intended to capture programming interview questions and solut
 
 The layout of the repository should contain a high-level directory with the languages name that the problem will be solved in
 
-
+See the [Question List](question-lists.md) for a reference of all problems and directions
