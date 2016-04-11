@@ -25,3 +25,8 @@
 		1≤N≤100
 
 	* The output should not contain the quotes.
+
+3. ## PE3
+	### Determine if an int is even or odd without using the '%' or '/' operators
+	* Write a method that takes an integer as an input and returns whether the integer is an even or an odd; two methods with boolean returns are acceptable
+	 e.g.: isEven(int input) and isOdd(int input)
