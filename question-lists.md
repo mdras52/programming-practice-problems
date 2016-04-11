@@ -5,8 +5,8 @@
 	* Take any String input and String toMatchExp and return whether the input matches toMatchExp
 	* Handle a '?' character operator in the toMatchExp that allows any character in place of the '?' character, 1 to 1
 		* So with the toMatchExp of 'He??o' and the input of 'Hello' and 'Hedxo' the result should be true but 'Helllo' would be false
-	* Handle a '*' character operator in the toMatchExp that allows any character in place of the '*' character, but with a 1 to many
+	* Handle a '*' character operator in the toMatchExp that allows any character in place of the '*' character zero or more times
 		* So with the toMatchExp of 'He*o' and the input of 'Hello' and 'Herro' and 'Helllllllllo' and 'Helo' the result would be true,
-		but the result to 'Hellrro' would be false
-		* 'He***o', 'Helllo' & 'Hellllllllo' & 'Herrrrrlppppppo' -> true, 'Hello' -> false
+		* 'He***o', 'Helllo' & 'Hellllllllo' & 'Herrrrrlppppppo' -> true, 'Hello' -> true, 'Heo' -> true, 'Helmnpo' -> false
 		* Consider this case: '*' as well
+	* You cannot use any Regular Expression or Matching libraries, the core algorithm must be written from ground up

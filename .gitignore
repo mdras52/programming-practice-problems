@@ -18,3 +18,9 @@ java/.idea/vcs.xml
 java/.idea/workspace.xml
 
 java/java.iml
+
+java/.idea/libraries/Maven__junit_junit_4_12.xml
+
+java/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml
+
+*/target/**
