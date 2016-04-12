@@ -30,3 +30,18 @@
 	### Determine if an int is even or odd without using the '%' or '/' operators
 	* Write a method that takes an integer as an input and returns whether the integer is an even or an odd; two methods with boolean returns are acceptable
 	 e.g.: isEven(int input) and isOdd(int input)
+
+4. ## PE4
+	### Implement a linked list data structure from http://maxnoy.com/interviews.html
+		* Implement Insert and Delete for
+			singly-linked linked list
+			sorted linked list
+			circular linked list
+
+			int Insert(node** head, int data)
+			int Delete(node** head, int deleteMe)
+		
+		* Split a linked list given a pivot value
+			void Split(node* head, int pivot, node** lt, node** gt)
+		* Find if a linked list has a cycle in it. Now do it without marking nodes.
+		* Find the middle of a linked list. Now do it while only going through the list once. (same solution as finding cycles)
