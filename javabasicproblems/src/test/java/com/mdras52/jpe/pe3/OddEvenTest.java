@@ -6,6 +6,7 @@ import static org.junit.Assert.assertTrue;
 
 /**
  * Created by matthewrasler on 4/10/16.
+ * To test the OddEven class
  */
 public class OddEvenTest {
 

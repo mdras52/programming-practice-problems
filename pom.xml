@@ -5,18 +5,32 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.mdras52</groupId>
-    <artifactId>java-programming-exercises</artifactId>
+    <artifactId>programming-practice-problems</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>javabasicproblems</module>
+        <module>interviewcake</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.12</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 
 </project>
