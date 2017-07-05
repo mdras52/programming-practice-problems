@@ -19,7 +19,7 @@ public class SortedListMerge {
      * all elements of left and right
      * Copy is shallow
      */
-    public static <E extends Comparable<? super E>> List<E> merge(List<E> left, List<E> right) {
+    public static <E extends Comparable<E>> List<E> merge(List<E> left, List<E> right) {
         List<E> merged = new ArrayList<>();
         if(right.isEmpty()) {
             merged.addAll(left);
