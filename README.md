@@ -28,6 +28,9 @@ This is my work and not guaranteed to be the best answer in all cases
 
 4. #### PE4 Find the nth to last element of LinkedList
     * Given a LinkedList with elements via the head reference and an index n, return the nth to last elements for the List
+
+5. #### PE5 Merge two sorted Lists
+    * Given two sorted Lists, merge them into 1 sorted List
     
     
     
