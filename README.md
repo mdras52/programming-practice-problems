@@ -32,6 +32,9 @@ This is my work and not guaranteed to be the best answer in all cases
 5. #### PE5 Merge two sorted Lists
     * Given two sorted Lists, merge them into 1 sorted List
     
+6. #### PE6 Determine if two words are anagrams
+    * Given two strings as input, return true if the left string (word) is an anagram of the right string (word)
+    
     
     
     
